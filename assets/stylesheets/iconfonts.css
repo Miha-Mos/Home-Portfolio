@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fontsicon/icomoon.eot?v28tpb');
+  src:  url('../fontsicon/icomoon.eot?v28tpb#iefix') format('embedded-opentype'),
+    url('../fontsicon/icomoon.ttf?v28tpb') format('truetype'),
+    url('../fontsicon/icomoon.woff?v28tpb') format('woff'),
+    url('../fontsicon/icomoon.svg?v28tpb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, 
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-right-arrow:before {
+  content: "\e900";
+}
+._icon-left-arrow:before {
+  content: "\e901";
+}
+._icon-audience:before {
+  content: "\e1";
+}
+._icon-briefcase:before {
+  content: "\e2";
+}
+._icon-cog:before {
+  content: "\e3";
+}
+._icon-cup:before {
+  content: "\e4";
+}
+._icon-eating:before {
+  content: "\e904";
+}
+._icon-heart:before {
+  content: "\e5";
+}
+._icon-heart-counter:before {
+  content: "\e6";
+}
+._icon-heart-empty:before {
+  content: "\e7";
+}
+._icon-layer-group:before {
+  content: "\e9";
+}
+._icon-message:before {
+  content: "\e10";
+}
+._icon-pencil-alt:before {
+  content: "\e11";
+}
+._icon-play-but:before {
+  content: "\e12";
+}
+._icon-search:before {
+  content: "\e13";
+}
+._icon-thumbs-up:before {
+  content: "\e14";
+}
