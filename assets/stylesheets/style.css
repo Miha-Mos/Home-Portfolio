@@ -651,6 +651,33 @@ a{
   color: rgba(199,178,153,0.8);
 }
 
+._icon-search{
+  position: absolute;
+  font-size: 25px;
+  opacity: 0;
+  transition: opacity,color 0.3s,0.2s;
+  color: white;
+  z-index: 1000;
+  padding: ;
+}
+
+.cbp-item:hover ._icon-search{
+  opacity: 1;
+}
+
+.image-overlay{
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+._icon-search:hover{
+  color: rgb(199, 178, 153);
+}
+
 .hide{
   position: absolute;
   opacity: 0;
