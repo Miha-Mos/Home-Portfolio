@@ -555,7 +555,7 @@ a{
   position: relative;	
 }
 
-.zoom-image{
+.zoom-image::after{
  content: "";
  postion: absolute;
  width: 100%;
@@ -567,7 +567,7 @@ a{
  opacity: 0;
 }	
 
-.zoom-image{
+.zoom-image:hover::after{
  opacity: 1;
 }
 
