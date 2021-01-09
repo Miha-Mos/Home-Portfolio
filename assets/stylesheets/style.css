@@ -303,13 +303,26 @@ a{
  animation: animButton 1.5s forwards ease;
  animation-delay: 0.5s;
  border-bottom: 3.5px solid #7a6b5d;
- font-size: 12px;
  border-radius: 4px;
  background:  rgb(153, 134, 117);
- padding: 18px 30px;
  color: white;
  font-weight: bold;
 }
+
+@media (min-width: 360px) {
+    .part1-button a{
+	font-size: 11px; 
+        padding: 15px 25px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .part1-button a{
+        font-size: 12px;
+        padding: 18px 30px;  
+    }
+}
+
 
 .part1-button a:hover{
  background: #7a6b5d;
@@ -755,9 +768,20 @@ a{
 }
 
 .part6-duration{
-  font-size: 13px;
   text-align: center;
   color: rgba(199, 178, 153,0.8);
+}
+
+@media (min-width: 360px) {
+    .part6-duration{
+	font-size: 8px; 
+    }
+}
+
+@media (min-width: 1080px) {
+    .part6-duration{
+        font-size: 13px;
+    }
 }
 
 ._icon-play-but{
