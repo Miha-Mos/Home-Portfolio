@@ -309,7 +309,7 @@ a{
  font-weight: bold;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
     .part1-button a{
 	font-size: 11px; 
         padding: 15px 25px;
@@ -772,7 +772,7 @@ a{
   color: rgba(199, 178, 153,0.8);
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
     .part6-duration{
 	font-size: 8px; 
     }
