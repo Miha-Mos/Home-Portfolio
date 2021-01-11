@@ -76,8 +76,8 @@ var show = true;
 
 $('[data-fancybox]').fancybox({
     youtube : {
-        controls : 0,
-        showinfo : 0
+        controls : 1,
+        showinfo : 1
     }
 });
 
