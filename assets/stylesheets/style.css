@@ -451,10 +451,12 @@ a{
 }
 
 .part4-caption{
+  display: flex;
   color: white;
 }
 
 .part4-descript{
+  display: flex;
   font-size: 15px;
   color: #868686;
 }
