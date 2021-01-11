@@ -979,6 +979,8 @@ a{
 }
 
 .part9-outer-more a{
+ display: flex;
+ align-items: center;
  color: rgb(199, 178, 153);
  font-size: 13px;
 }
