@@ -823,7 +823,7 @@ a{
 .part7-arrow:before{
   font-family: sans-serif;
   display: flex;
-  jusfy-content: center;
+  justify-content: center;
   content: '\203A';
   font-size: 15px;
   width: 18px;
