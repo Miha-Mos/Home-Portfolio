@@ -755,20 +755,10 @@ a{
 }
 
 .part6-duration{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
   color: rgba(199, 178, 153,0.8);
-}
-
-@media (max-width: 360px) {
-    .part6-duration{
-	font-size: 8px; 
-    }
-}
-
-@media (min-width: 1080px) {
-    .part6-duration{
-        font-size: 13px;
-    }
 }
 
 ._icon-play-but{
@@ -832,12 +822,14 @@ a{
 
 .part7-arrow:before{
   font-family: sans-serif;
-  display: block;
+  display: flex;
+  jusfy-content: center;
   content: '\203A';
   font-size: 15px;
+  width: 18px;
+  height: 18px;
   color: white;
-  padding: 0px 6px;
-  border-radius: 50%;
+  border-radius: 50px;
   background: rgb(199, 178, 153);
 }
 
@@ -1103,6 +1095,11 @@ a{
 
 .part10-img img{
   padding: 0px 25px;
+}
+
+.part10-wrapper .owl-carousel .owl-stage-outer .owl-stage{
+  display: flex;
+  align-items: center;
 }
 
 /*
